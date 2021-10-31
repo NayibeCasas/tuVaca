@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10vh;
+}
+/********************Menu***************/
+.header{
+    height:10vh;
+    display: flex;
+    align-items: center;
+    
+}
+
+.header_nav{
+    background-color: white;
+    width: 100%;
+    height:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 9;
+    box-shadow: 0 0 10px rgb(75,131,37,.4);
+    
+}
+.header_img {
+    height: 80%;
+    width:30% ;
+}
+.header_img img{
+    height:50px;
+    width: 200px;
+    z-index: 11;
+}
+.header_ul{
+    list-style: none;/*estilo de la lista para quitar los punos*/
+    margin-left: 5%;
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_ul--li{
+    display: inline-block;/*poner los elementos de forma horizontal*/
+}
+/*ser especifco en css*/
+.header_ul--li a{
+    color: #4B8325;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    padding: 5px;
+    text-decoration: none;
+}
+.header_ul a:focus{
+    background-color:#4B8325 ;
+    color: white;
+    border-radius: 5px;
+}
+.header_ul--li a:hover{
+    background-color:#4B8325 ;
+    color: white;
+    border-radius: 5px;
+}
+
+/********************Main Inicio***************/
+.main_inicio iframe{
+    width: 100%;
+    height:90vh;
+    
+}
+/********************Main Porque***************/
+.main_quees iframe{
+    height: 90vh;
+    width:100%;
+    background-color: #4B8325;
+}
+.main_porque iframe{
+    height: 90vh;
+    width:100%;
+    background-color: #4B8325;
+}
+.main_soporte iframe{
+    height: 90vh;
+    width:100%;
+    background-color: #4B8325;
+}
+.main_contacto iframe{
+    height: 90vh;
+    width:100%;
+    background-color: #4B8325;
+}
