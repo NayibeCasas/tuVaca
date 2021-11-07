@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main_inicio{
+    width: 100%;
+    margin-bottom: 5vh;
+    background-repeat: no-repeat;
+    background-image: url(../imagenes/fondoporque.png);
+    background-repeat: no-repeat;
+}
+h1{
+    color: #4B8325;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 5%;
+    text-align: left;
+    margin-left: 15%;
+}
+.main_inicio_porque{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main_inicio_porque_botones{
+    text-align: center;
+    width: 75;
+    
+
+}
+.main_inicio_porque_imagenes{
+    width: 25%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.main_inicio_porque_imagenes img{
+    width: 100%;
+    height: 90%;
+}
+.botones_superiores{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.botones_superiores img{
+    width: 30%;
+    cursor: pointer;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #4B8325;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+.botones_inferiores img{
+    width: 13%;
+    cursor: pointer;
+}
