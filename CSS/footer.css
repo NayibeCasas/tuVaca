@@ -1,0 +1,126 @@
+:root{
+    --primary-color: #4B8325;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+footer{
+    font-size: 1.6rem;
+}
+div{
+    width: 100vw;
+    height: 50vh;
+    background-color:var(--primary-color);
+}
+
+.section-footer-div{
+    height:100vh;
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    width: 10rem;
+    height: 10rem;
+}
+.equipo {
+    width: 10vh;
+}
+.img-equipo-box{
+    display: flex;
+    position: relative;
+    top: -80%;
+    left: -95%;
+}
+.img-nayis img{
+    height: 30vh;
+    align-items: center;
+    display: inline-block;
+    justify-content: space-around;
+    position: relative;
+    left: -50%;
+}
+.img-juan img{
+    height: 29vh;
+    position: relative;
+    top: 1%;
+    left: -110%;
+}
+
+figcaption{
+    width: 60px;
+    position: relative;
+    left: -20%;
+    top: -10%;
+    color: white;
+}
+.img-juan figcaption{
+    left: -80%;
+    bottom: 10px;
+    margin: 7px;
+}
+.datos{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    color: white;
+}
+.ayuda{
+    background-color: red;
+    height: 400px;
+    width: 200px;
+}
+.datos p{
+    white-space: nowrap;
+    margin: 20px;
+    position: relative;
+    top: -80%;
+    left: -150%;
+    font-size: 2.0rem;
+}
+.img-email {
+    height: 60px;
+    margin: 0;
+    position: relative;
+    left: -12%;
+    top: -74%;
+}
+.img-telefono{
+    height: 40px;
+    position: relative;
+    left: -9.5%;
+    top: -72%;
+}
+
+.datos h4{
+    width: 300px;
+    margin: 0;
+    position: relative;
+    left: -6%;
+    top: -130%;
+}
+.datos h3{
+    width: 300px;
+    margin: 0;
+    position: relative;
+    left: -6%;
+    top: -200%;
+}
+label{
+    width: 40px;
+    position: relative;
+    top: -50px;
+}
+
