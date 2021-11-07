@@ -47,7 +47,7 @@
 }
 .contenedor-2S{
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     flex-wrap: wrap;
     width: 80%;
 }
