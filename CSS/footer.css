@@ -12,115 +12,155 @@ html{
 }
 footer{
     font-size: 1.6rem;
-}
-div{
     width: 100vw;
-    height: 50vh;
-    background-color:var(--primary-color);
-}
+    height: 100vh;
 
-.section-footer-div{
-    height:100vh;
-    overflow: hidden;
+    background-color:var(--primary-color)
 }
-
-.container{
+/*Contenedor principal*/
+.container {
     display: flex;
-    height: 50vh;
+    width: 100vw;
+    height: 42vh;
     align-items: center;
+    margin-top: -4vh;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
-.box{
-    width: 10rem;
-    height: 10rem;
-}
-.equipo {
-    width: 10vh;
-}
-.img-equipo-box{
+/*Equipo de desarrollo*/
+.equipo{
+    width: 60vh;
+    height: 38vh;
     display: flex;
-    position: relative;
-    top: -80%;
-    left: -95%;
-}
-.img-nayis img{
-    height: 30vh;
     align-items: center;
-    display: inline-block;
-    justify-content: space-around;
-    position: relative;
-    left: -50%;
+    justify-content: left;
 }
-.img-juan img{
-    height: 29vh;
+.nayis{
+    width: 40%;
     position: relative;
-    top: 1%;
-    left: -110%;
 }
-
+.juan{
+    width: 40%;
+}
+.equipo img {
+    height: 27vh;
+    justify-content: left;
+}
 figcaption{
-    width: 60px;
-    position: relative;
-    left: -20%;
-    top: -10%;
-    color: white;
+    margin-left: 70%;
+    margin-top: -10%;
 }
-.img-juan figcaption{
-    left: -80%;
-    bottom: 10px;
-    margin: 7px;
+/*seccion central*/
+.contenido-info{
+    height: 38vh;
+    width: 68vw;
+    display: flex;
 }
 .datos{
+
+    width: 60vh;
+    height: 38vh;
     display: flex;
-    position: relative;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
     color: white;
 }
-.ayuda{
-    background-color: red;
-    height: 400px;
-    width: 200px;
+p {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
 }
-.datos p{
-    white-space: nowrap;
-    margin: 20px;
-    position: relative;
-    top: -80%;
-    left: -150%;
-    font-size: 2.0rem;
+.datos .email{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.img-email {
-    height: 60px;
-    margin: 0;
-    position: relative;
-    left: -12%;
-    top: -74%;
+.email .img-email{
+    width: 7vw;
 }
-.img-telefono{
-    height: 40px;
-    position: relative;
-    left: -9.5%;
-    top: -72%;
+.datos .telefono{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
 }
+.telefono .img-telefono {
+    width: 3vw;
+}
+.name{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 40px;
+}
+/*Seccion de ayuda*/
+.ayuda form{
+    display: flex;
 
-.datos h4{
-    width: 300px;
-    margin: 0;
     position: relative;
-    left: -6%;
-    top: -130%;
-}
-.datos h3{
-    width: 300px;
-    margin: 0;
-    position: relative;
-    left: -6%;
-    top: -200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 30vw;
+    margin-top: -20vh;
 }
 label{
-    width: 40px;
-    position: relative;
-    top: -50px;
+    color: white;
+    font-size: 1.9rem;
+    margin-bottom: 2%;
 }
-
+.ayuda input[type=email]{
+    height: 4.5vh;
+	width: 60%;
+	background-color:var(--primary-color);
+	border: none;
+	border-bottom: 2px solid white;
+	margin-bottom: 15px;
+	color: rgb(255, 253, 253);
+	font-size: 1.3rem;
+	max-width: 300px;
+	outline-style: none;
+    margin-bottom: 4%;
+}
+input:focus{
+	box-shadow: 5px 5px 6px 0 rgba(185, 185, 185, 0.5);
+}
+.ayuda textarea{
+    color: white;
+    background-color:var(--primary-color);
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    justify-content: center;
+    outline-style: none;
+}
+textarea:focus{
+	box-shadow: 5px 5px 6px 0 rgba(185, 185, 185, 0.5);
+}
+input[type=submit]{
+	height: 4vh;
+	width: 10vw;
+	background-color: var(--primary-color);
+	color: white;
+	font-size: 2rem;
+	position: relative;
+	top: 3%;
+	border: 0;
+	max-width: 300px;
+    font-weight: bold;
+}
+input[type=submit]:hover{
+	cursor: pointer;
+	background-color: white;
+	color: var(--primary-color);
+}
+::placeholder{
+    color: #E9E8E9;
+}
+.ayuda img{
+    height: 20vh;
+    margin-top: 8%;
+}
