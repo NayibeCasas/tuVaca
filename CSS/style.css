@@ -72,15 +72,13 @@ html{
 }
 /********************Main Porque***************/
 .main_quees iframe{
-    height: 90vh;
+    height: 100vh;
     width:100%;
-    background-color: #4B8325;
 }
 .main_porque iframe{
     height: 100vh;
     width:100%;
-    margin-bottom: 2%;
-    background-color: #4B8325;
+    margin-bottom: 5%;
 }
 .main_soporte iframe{
     height: 125vh;
@@ -89,5 +87,4 @@ html{
 .main_contacto iframe{
     height: 90vh;
     width:100%;
-    background-color: #4B8325;
 }
